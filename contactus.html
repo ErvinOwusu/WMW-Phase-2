@@ -14,57 +14,196 @@
 
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="nav.css" type="text/css" />
+    
+    <style>
+
+        .padding {
+            padding: 0 5rem;
+        }
+        .contactDetails{
+            color: white;
+        }
+
+        .title {
+            color: white; 
+            font-size: 3rem; 
+            font-family: 'Rubik', sans-serif; 
+            font-weight: bold; 
+            text-align: left;
+        }
+        
+        .inputTitle {
+            font-size: 1.5rem; 
+            font-family: 'Quicksand', sans-serif; 
+            font-weight: bold;
+        }
+        
+        .input {
+            width:90%; 
+            height: 2.4rem; 
+            font-size: 1.3rem;
+            font-family: 'Rubik', sans-serif;
+        }
+        .button {
+            font-family: 'Quicksand', sans-serif; 
+            font-weight: bold; 
+            background: 0; 
+            border: 2px solid rgba(255, 255, 255);
+            color: white; 
+            border-radius: 10px;
+            padding: 3px 20px;
+        }
+
+        .section {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center; 
+            padding-top: 3rem;
+        }
+
+        .section2 { 
+            font-size: 1.5rem; 
+            text-align: left;
+            color: white;
+        }
+
+        .form-style {
+            padding-right: 8rem; 
+            color: white; 
+            width: 50%; 
+            margin-left: auto; 
+            margin-right: auto;
+        }
+
+        @media (max-width: 1310px)
+        {
+            .section {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            padding-top: 3rem;
+        }
+
+        .form-style {
+            padding: 2rem; 
+            color: white; 
+            width: 100%;
+            text-align: center;
+        }
+
+        .section2 { 
+            font-size: 1rem; 
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2.0rem;
+            text-align: center;
+        }
+
+        .padding {
+            padding: 0 2rem;
+        }
+    }
+    </style>
     </head>
     
-     <!---------------------------------------- NAVIGATION ---------------------------------------->
-     <nav class="navbar">
-        <!-- Logo -->
-        <div class="logo"><a href="index.html"><img src="images/WM icon 2.png" width="90"></a></div>
-        <!-- Hamburger Toggle -->
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <!-- Page Navigation Links -->
-        <div class="navbar-links">
-            <ul>
-                <li><a href="products3.html">PRODUCTS</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="contactus2.html">CONTACT US</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </div>
-    </nav>
-    <script type="text/javascript" src="javascript.js"></script>
+    <body>
+        <!---------------------------------------- NAVIGATION ---------------------------------------->
+        <nav class="navbar" style="background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: center;">
+            <!-- Logo -->
+            <div class="logo"><a href="index.html"><img src="images/Main Logo(4).png" width="210" style="display: block;"></a></div>
+            <!-- Hamburger Toggle -->
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <!-- Page Navigation Links -->
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script type="text/javascript" src="javascript.js"></script>
 
     <!-- Contacy Information-->
-    <div class="contactDetails">
-        <h1>Contact Details</h1>
-        <p>Woodland Regional High School</p>
-        <p>105 Back Rimmon Road</p>
-        <p>Beacon Falls, CT 06403</p>
-        <p>203-578-3350</p>
-        <br>
-    </div>
+    <div class="section">
+        <section class="padding">
+            <div class="title">
+            CONTACT OUR SALES TEAM
+            </div>
+            
+            <div class="section2">
+                <div>
+                    You can reach us through <i>wrhsmetalworks@region16ct.org</i> by filling out the form:
 
+                <hr style="background: white;">
+                    <span style="font-size: 2rem; font-weight: bold;"> LOCATION INFORMATION:</span> <br>
+                    135 Back Rimmon Road <br>
+                    Beacon Falls, CT 06403 <br>
+                    203-578-3350
+                <hr style="background: white;">
+            </div>
+            </div>
+    
+            <script type="text/javascript" src="script.js"></script>
+        </section>
+        <section class="form-style" style="padding-bottom: 25rem;">
+            <form action="https://formsubmit.co/2aabc999eae9fc0c38b124a73c57a2e8" method="POST">
+                <input type="hidden" name="_subject" value="Submission - Contact!">
+                <input type="hidden" name="_next" value="https://ervinowusu.github.io/WMW/thankyou.html">
+                        <div class="inputTitle" style="font-family: 'Rubik', sans-serif; font-weight: 400; font-size: 1.2rem;">
+                            NAME: 
+                            <input type="text" name="name" class="input form-control" style="width: 100%; color: black">
+                            </div>                    
+                     
+                    <div class="inputTitle" style="padding-top: 25px; font-family: 'Rubik', sans-serif; font-weight: 400; font-size: 1.2rem;">YOUR E-MAIL: </div>
+                    <input type="text" name="mail" class="input form-control" style="width: 100%; color: black">
+                    
+                    <div class="inputTitle" style="padding-top: 25px; font-family: 'Rubik', sans-serif; font-weight: 400; font-size: 1.2rem;">MESSAGE:</div>
+                    <textarea name="comment" style="width: 100%; height: 160px; padding: 10px; color: black;" class="input form-control"> </textarea>
+                    <!-- <input type="text" name="comment" class="input" size="200" placeholder="How can we help you?" style="width: 95%; height: 167px;"> -->
+                    
+                    <br><br>
+                    
+                    
+                    <input type="submit" value="SEND" class="button">
+                    <input type="reset" value="CLEAR" class="button">
+                </form>
+        </section>
+    </div>
     <!-- Contact Form -->
-    <div class="contactDetails">
-        <form action="mailto:kayo.niebrzydowski@student.region16ct.org" method="post" enctype="text/plain">
-        <h2>Send e-mail to wrhsmetalworks@region16ct.org:</h2>
 
-            Name:<br>
-            <input type="text" name="name"><br> E-mail:
-            <br>
-            <input type="text" name="mail"><br> Comment:
-            <br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
+    <!-------------------------------------------------------- FOOTER -------------------------------------------------------->
+<footer style="background-color: rgba(11, 11, 11, 0.5); padding: 30px 30px 14px 30px; width: 100%; font-family: 'Rubik', sans-serif; color: white; font-size: 1.4rem;">
+    
+    <div style="display: flex; flex-direction: row;">
+        <section style="font-size: 1.2rem; padding-right: 50px; color:rgba(255, 255, 255, 0.5);">
+            <img src="images/wm-black-white.png" class="img-style2">
+            <div style="padding-top: 20px;">Woodland Metal Works</div>
+            <div>Woodland Regional High School</div>
+            <div>135 Back Rimmon Road</div>
+            <div>Beacon Falls, CT 06403</div>
+            <div style="padding-top: 10px; color: white;">203-881-5551</div>
+        </section>
+        <div style="border-right: 2px solid rgba(255, 255, 255, 0.2); height: 300px;"></div>
+
+        <section style="padding-left: 80px;">
+            <div style="font-weight: 600; padding-bottom: 10px;"> NAVIGATION </div>
+            <div style="list-style: none; font-size: .9rem;">
+                <li> <a class="link-color" href="products3.html">PRODUCTS</a> </li>
+                <li> <a class="link-color" href="faq.html">FAQ</a> </li>
+                <li> <a class="link-color" href="contactus2.html">CONTACT US </a></li>
+                <li> <a class="link-color" href="aboutus.html">ABOUT US </a></li>
+            </div>
     </div>
-    <script type="text/javascript" src="script.js"></script> 
 
-        
+    <div style="width: 100%; color: rgba(255, 255, 255, 0.6); text-align: center; font-size: 1.0rem;"> Copyright © 2022 Woodland Metal Worls. All Rights Reserved </div>
+</footer>
     </body>
 </html>
