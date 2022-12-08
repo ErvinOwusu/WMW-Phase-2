@@ -1,6 +1,5 @@
 # Woodland Metal Works Project
 
-### WWW Wubbly wrinkley wigglers
 Ervin, Kayo, and Gavin <br>
 Mr. Cullen
 
