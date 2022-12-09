@@ -26,6 +26,76 @@ font-weight: 700;
     font-family: Delmon;
     src: url(Delmon Delicate.ttf);
 }
+
+.h1 {
+    line-height: 75px; 
+    font-size: 4rem; 
+    color: white; 
+    font-family: 'Rubik', sans-serif;
+    text-align: center; 
+    font-weight: 600; 
+    text-shadow: 3px 3px 0 #000;
+}
+.image-gallery {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+.image-gallery-style {
+    width: 370px; border: 2.5px solid #fff; border-radius: 10px;
+}
+
+.d1 {
+    font-family: 'Quicksand', sans-serif; font-size: 1.4rem; color: white; text-align: center; font-weight: 300;
+}
+
+.d1-padding {
+    border-radius: 20px; 
+    color: white; 
+    padding: 30px 90px; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.d2-padding {
+        display: flex; flex-direction: row; justify-content: center; padding: 120px 0 120px 0;
+    }
+
+    .title2-2 {
+        text-align: left; width: 80%;
+        color: white; 
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5rem; 
+        font-weight: normal; 
+        display: block;
+        padding: 0 4rem 2rem 4rem; 
+        text-shadow: 2px 2px 0 #000;
+    }
+
+    .footer-title {
+        font-size: 3rem; 
+        color: white; 
+        font-size: 2rem; 
+        text-align: center; 
+        padding-bottom: 40px;
+    }
+
+    .footer-flex {
+        display: flex; 
+        flex-direction: row; 
+        font-family: 'Rubik', sans-serif; 
+        justify-content: center; 
+        padding-bottom: 40px;
+    }
+
+    .pad-left {
+        padding-left: 90px;
+    }
+
+
 .section {
     padding: 10px 30px 60px 30px; 
     background-color: #2F2F2F;
@@ -55,7 +125,7 @@ font-weight: 700;
 }
 
 .title2-2 {
-    text-align: center; 
+    text-align: left; 
     color: white; 
     font-family: 'Rubik', sans-serif;
     font-size: 1.9rem; 
@@ -153,11 +223,8 @@ font-weight: 700;
 }
 
 
-@media (max-width: 800px) {
-  .flex-row {
-flex-direction: column;
-padding: 0;
-}
+
+
 }
 .flex-col {
     display: flex;
@@ -167,30 +234,14 @@ padding: 0;
     margin: 1rem 1rem;
 }
 
- @media (max-width: 800px) {
-     .flex-img {
-         width: 500px;
-     }
-     
-     .img-style {
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.desc1 {
-    padding: 0 20px 0 20px; 
-    line-height: 3.2rem; 
-    text-align: center; 
-    font-family: 'Quicksand', sans-serif; 
-    color: white; 
-    font-size: 1.3rem;
-    font-weight: 200;
-    display: block;
-    line-height: 35px;
-}
+ @media (max-width: 800px)
+ {
+    .pad-left {
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
  }
-}
+
 
 html {
     box-sizing: border-box;
