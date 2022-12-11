@@ -45,7 +45,9 @@ font-weight: 700;
 }
 
 .image-gallery-style {
-    width: 370px; border: 2.5px solid #fff; border-radius: 10px;
+    width: 300px; 
+    border: 2.5px solid #fff; 
+    border-radius: 10px;
 }
 
 .d1 {
