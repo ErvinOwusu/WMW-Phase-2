@@ -1,55 +1,138 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <title> FAQ's </title>
-         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title></title>
-    
+
+<head>
+    <title> FAQ's </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="nav.css" type="text/css" />
-    
+
     <style>
         .collapsible {
             color: white;
-          cursor: pointer;
-          padding: 18px;
-          width: 100%;
-          border: none;
-          outline: none;
-          font-size: 29px;
-          text-align: center; 
-          background: rgba(0, 0, 0, 0); 
-          font-family: 'Rubik', sans-serif;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 29px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0);
+            font-family: 'Rubik', sans-serif;
         }
-        
-        .active, .collapsible:hover {
-          color: #999999;
+
+        .active,
+        .collapsible:hover {
+            color: #999999;
         }
-    
+
         .content {
-          padding: 0 18px;
-          display: none;
-          overflow: hidden;
-          text-align: center; 
-          font-size: 20px; 
-          border-left: 0px solid white;
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            text-align: center;
+            font-size: 20px;
+            border-left: 0px solid white;
+        }
+
+        .title {
+            background-color: rgba(185, 185, 185, .9);
+            width: 50%;
+            text-align: left;
+            padding: 20px;
+            color: #FFF;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            border: 3px solid rgba(255, 255, 255, 0.5);
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 1.5px 1.5px 0 #000;
+            cursor: pointer;
+        }
+
+        #moreA {
+            display: none;
+        }
+
+        #moreB {
+            display: none;
+        }
+
+        #moreC {
+            display: none;
+        }
+
+        #moreD {
+            display: none;
+        }
+        #moreE {
+            display: none;
+        }
+
+        .mainTitle {
+            font-family: 'Rubik', sans-serif;
+            text-shadow: 2px 2px 0 #000;
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 50px;
+            color: #FFF;
+            padding: 40px 0 90px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .flex-c {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .desc {
+            background-color: #FFF;
+            color: #000;
+
+            width: 50%;
+            text-align: left;
+            padding: 20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
+            font-size: 1.3rem;
+            border: 3px solid rgba(170, 170, 170, 1);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .zoom {
+            transition: transform .2s, filter .2s;
+        }
+
+        .zoom:hover {
+            transform: scale(1.01);
+            filter: brightness(120%);
+        }
+
+        .flex-d {
+            display: flex;
+            flex-direction: row;
         }
     </style>
-    </head>
-    
-    <body>
-        
-       <!---------------------------------------- NAVIGATION ---------------------------------------->
-       <nav class="navbar" style="background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: center;">
+</head>
+
+<body>
+
+    <!---------------------------------------- NAVIGATION ---------------------------------------->
+    <nav class="navbar" style="background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: center;">
         <!-- Logo -->
-        <div class="logo"><a href="index.html"><img src="images/Main Logo(4).png" width="210" style="display: block;"></a></div>
+        <div class="logo"><a href="index.html"><img src="images/Main Logo(4).png" width="210"
+                    style="display: block;"></a></div>
         <!-- Hamburger Toggle -->
         <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -69,12 +152,7 @@
     <script type="text/javascript" src="javascript.js"></script>
 
     <!------------------------------------------ Question 1 ----------------------------------------->
-    
-    <div class = "questionTitle">
-        <br>
-        <h2 style="color: white; font-family: 'Quicksand', sans-serif; font-weight: bold; font-size: 3rem;"> Frequently Asked Questions </h2>   
-        <br>
-    </div>
+    <div class="mainTitle">Frequently Asked Questions</div>
     <!--
     <div class = "questions" style="color: white; text-align: center;">
         <button type="button" class="collapsible">What are we selling?</button>
@@ -82,7 +160,7 @@
         But, we are currently looking to expand our product selection to create more products that our customers will enjoy!</h4>
         <br>
         <button type="button" class="collapsible">Where can you find us</button>
-        <h4 class="content">The best place to find us is where you are, please visit the “contact us” page to find the address and all contact information.</h4>
+        <h4 class="content">c</h4>
         <br>
         <h3 style = "text-align: center">Any other questions?</h3>
         <h4 style = "text-align: center">Contact us for any issues or problems you may have. We will get to you as soon as we could</h4>
@@ -90,64 +168,122 @@
     -->
 
 
+    <div class="flex-c" style="padding-bottom: 100px;">
 
-    
-    
-    <div style="font-family: 'Quicksand', sans-serif; padding-left: 10px; width: 80%;">
-        <table style="color: white; border-left: 4px solid white;">
-            <tr>
-                <td> <div style="padding-left: 20px; font-size: 4rem;"> Q </div> </td>
-                <td> <div style="padding-left: 20px; font-size: 2rem;"> What are we selling?</div> </td>
-            </tr>
-        </table>
-        <table style="color: #c7c6c5; border-left: 4px solid #c7c6c5;">
-            <tr>
-                <td> <div style="padding-left: 20px; font-size: 4rem;"> A </div> </td>
-                <td> <div style="padding-left: 20px; font-size: 1.5rem;"> We currently sell custom chess pieces, competition axes, a metal signs. 
-        We are currently looking to expand our product selection to create more products that our customers will enjoy! </div> </td>
-            </tr>
-        </table>
-        
-        <br>
-        
-        <table style="color: white; border-left: 4px solid white;">
-            <tr>
-                <td> <div style="padding-left: 20px; font-size: 4rem;"> Q </div> </td>
-                <td> <div style="padding-left: 20px; font-size: 2rem;"> Where can you find us?</div> </td>
-            </tr>
-        </table>
-        <table style="color: #c7c6c5; border-left: 4px solid #c7c6c5;">
-            <tr>
-                <td> <div style="padding-left: 20px; font-size: 4rem;"> A </div> </td>
-                <td> <div style="padding-left: 20px; font-size: 1.5rem;"> Please visit the <a href="contactus.html"> Contact Us </a> page to find the address and all contact information. </div> </td>
-            </tr>
-        </table>
-        
+        <!------------------------------------- SECTION ------------------------------------->
+        <div class="title zoom">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" onclick="moreTextA()">
+                What are we Selling?
+                <div style="color: white;"> + </div>
+            </div>
+        </div>
+        <div id="moreA" class="desc"> We currently sell custom chess pieces, competition axes, and metal signs. We're
+            constantly working on new products to expand our options to choose from. Feel free to check the products
+            page for any new items in the future!</div>
+
+        <hr style="width: 50%; background-color: rgba(255, 255, 255, 0.5);">
+        <!------------------------------------- SECTION ------------------------------------->
+        <div class="title zoom">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" onclick="moreTextB()">
+                Can I cancel or edit my order?
+                <div style="color: white;"> + </div>
+            </div>
+        </div>
+        <div id="moreB" class="desc"> Yes. Please visit the <a href="aboutus.html"> Conctact Us</a> page to message us
+            the details about your order. </div>
+
+        <hr style="width: 50%; background-color: rgba(255, 255, 255, 0.5);">
+        <!------------------------------------- SECTION ------------------------------------->
+        <div class="title zoom">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" onclick="moreTextC()">
+                Can I cancel or edit my order?
+                <div style="color: white;"> + </div>
+            </div>
+        </div>
+        <div id="moreC" class="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.. </div>
+
+
+        <hr style="width: 50%; background-color: rgba(255, 255, 255, 0.5);">
+        <!------------------------------------- SECTION ------------------------------------->
+        <div class="title zoom">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" onclick="moreTextD()">
+                Can I cancel or edit my order?
+                <div style="color: white;"> + </div>
+            </div>
+        </div>
+        <div id="moreD" class="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.. </div>
+
+            <hr style="width: 50%; background-color: rgba(255, 255, 255, 0.5);">
+        <!------------------------------------- SECTION ------------------------------------->
+        <div class="title zoom">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;" onclick="moreTextE()">
+                Where can you find us?
+                <div style="color: white;"> + </div>
+            </div>
+        </div>
+        <div id="moreE" class="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.. </div>
+
+            <div style="color: #FFF; text-align: center; font-family: 'Rubik', sans-serif; font-weight: 200; font-size: 1.5rem; padding-top: 100px;"><i><a href="contactus.html">Contact us</a> with any issues you may have. We will get back to you as soon as possible.</i></div>
     </div>
 
-    <div style="text-align: center; color: white; font-size: 2rem; padding: 4rem 0 0 0;"> Any Other Questions? </div>
-        <div style="text-align: center; color: #c7c6c5; font-size: 1.5rem; padding-bottom: 15rem;"> <a href="contactus.html">Contact us</a> with any issues or problems you may have,
-        and we will get back to you as soon as possible!</div>
+    <script>
+        var moreA = document.getElementById('moreA');
+        var moreB = document.getElementById('moreB');
+        var moreC = document.getElementById('moreC');
+        var moreD = document.getElementById('moreD');
 
+        function moreTextA() {
+            if (moreA.style.display === "inline") {
+                moreA.style.display = "none";
+            }
+            else {
+                moreA.style.display = "inline";
+            }
+        }
 
+        function moreTextB() {
+            if (moreB.style.display === "inline") {
+                moreB.style.display = "none";
+            }
+            else {
+                moreB.style.display = "inline";
+            }
+        }
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+        function moreTextC() {
+            if (moreC.style.display === "inline") {
+                moreC.style.display = "none";
+            }
+            else {
+                moreC.style.display = "inline";
+            }
+        }
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-<!-- 
+        function moreTextD() {
+            if (moreD.style.display === "inline") {
+                moreD.style.display = "none";
+            }
+            else {
+                moreD.style.display = "inline";
+            }
+        }
+
+            function moreTextE() {
+            if (moreE.style.display === "inline") {
+                moreE.style.display = "none";
+            }
+            else {
+                moreE.style.display = "inline";
+            }
+        }
+    </script>
+    <!-- 
   <div class="dropdown">
   <span>Mouse over me</span>
   <div class="dropdown-content">
@@ -155,64 +291,69 @@ for (i = 0; i < coll.length; i++) {
   </div>
   </div>
 -->
-    </body>
+</body>
 
 
-        <!-------------------------------------------------------- FOOTER -------------------------------------------------------->
-<footer style="background-color: rgba(11, 11, 11, 0.5); padding: 30px 30px 14px 30px; width: 100%; font-family: 'Rubik', sans-serif; color: white; font-size: 1.4rem;">
-    
+<!-------------------------------------------------------- FOOTER -------------------------------------------------------->
+<footer
+    style="background-color: rgba(11, 11, 11, 0.5); padding: 30px 30px 14px 30px; width: 100%; font-family: 'Rubik', sans-serif; color: white; font-size: 1.4rem;">
+
     <div class="footer-title"> Woodland Metal Works</div>
 
     <div class="footer-flex">
-       <!-- SECTION -->
-       <div class="pad-left">
-        <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
-            LOCATION INFORMATION
-        </div>
-        <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
-            <div>135 Back Rimmon Road</a></div>
-            <div>Beacon Falls, CT 06403</a></div> 
-            <div>203-578-3350</a></div>
-        </div>
-    </div>
-       
         <!-- SECTION -->
-            <div class="pad-left">
-                <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
-                    NAVIGATION
-                </div>
-                <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
-                    <div><a href="products.html">PRODUCTS</a></div>
-                    <div><a href="faq.html">FAQ</a></div> 
-                    <div><a href="aboutus.html">ABOUT US</a></div>
-                    <div><a href="contactus.html">CONTACT US</a></div>
-                </div>
+        <div class="pad-left">
+            <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
+                LOCATION INFORMATION
             </div>
+            <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
+                <div>135 Back Rimmon Road</a></div>
+                <div>Beacon Falls, CT 06403</a></div>
+                <div>203-578-3350</a></div>
+            </div>
+        </div>
 
-            <!-- SECTION -->
-            <div class="pad-left">
-                <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
-                    POPULAR PRODUCTS
-                </div>
-                <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
-                    <div><a href="products.html#container-chess">CUSTOM CHESS PIECES</a></div>
-                    <div><a href="products.html#container-axe">COMPETITION AXES</a></div> 
-                    <div><a href="products.html#container-metalSign">CUSTOM METAL SIGNS</a></div>
-                </div>
+        <!-- SECTION -->
+        <div class="pad-left">
+            <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
+                NAVIGATION
             </div>
+            <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
+                <div><a href="products.html">PRODUCTS</a></div>
+                <div><a href="faq.html">FAQ</a></div>
+                <div><a href="aboutus.html">ABOUT US</a></div>
+                <div><a href="contactus.html">CONTACT US</a></div>
+            </div>
+        </div>
 
-            <!-- SECTION -->
-            <div style="padding-left: 90px; padding-right: 90px;">
-                <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
-                    FOLLOW US
-                </div>
-                <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
-                    <div><a href="https://www.instagram.com/woodland_metalworks/?hl=en"><i class="fa-brands fa-instagram" style="color: white; padding-right: 4px;"></i> INSTAGRAM</a></div>
-                    <div><a href="https://www.facebook.com/profile.php?id=100078803509412"> <i class="fa-brands fa-facebook" style="color: white; padding-right: 7px;"></i>FACEBOOK</a></div> 
-                </div>
+        <!-- SECTION -->
+        <div class="pad-left">
+            <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
+                POPULAR PRODUCTS
             </div>
+            <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
+                <div><a href="products.html#container-chess">CUSTOM CHESS PIECES</a></div>
+                <div><a href="products.html#container-axe">COMPETITION AXES</a></div>
+                <div><a href="products.html#container-metalSign">CUSTOM METAL SIGNS</a></div>
+            </div>
+        </div>
+
+        <!-- SECTION -->
+        <div style="padding-left: 90px; padding-right: 90px;">
+            <div style="font-size: 1.2rem; color: rgba(255, 255, 255, 1); font-weight: 400;">
+                FOLLOW US
+            </div>
+            <div style="font-size: 1rem; color: rgba(255, 255, 255, .8); font-weight: 200; text-align: center;">
+                <div><a href="https://www.instagram.com/woodland_metalworks/?hl=en"><i class="fa-brands fa-instagram"
+                            style="color: white; padding-right: 4px;"></i> INSTAGRAM</a></div>
+                <div><a href="https://www.facebook.com/profile.php?id=100078803509412"> <i class="fa-brands fa-facebook"
+                            style="color: white; padding-right: 7px;"></i>FACEBOOK</a></div>
+            </div>
+        </div>
     </div>
-    
-    <div style="text-align: center; color: rgba(255, 255, 255, 0.6); font-size: 1rem;"> Copyright © 2022 Woodland Metal Worls. All Rights Reserved </div>
+
+    <div style="text-align: center; color: rgba(255, 255, 255, 0.6); font-size: 1rem;"> Copyright © 2022 Woodland Metal
+        Worls. All Rights Reserved </div>
 </footer>
+
 </html>
