@@ -84,6 +84,7 @@ font-weight: 700;
         font-size: 2rem; 
         text-align: center; 
         padding-bottom: 40px;
+        text-transform: uppercase;
     }
 
     .footer-flex {
