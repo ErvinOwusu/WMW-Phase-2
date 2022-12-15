@@ -28,133 +28,150 @@ font-weight: 700;
     src: url(Delmon Delicate.ttf);
 }
 
+.button-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 .h1 {
-    line-height: 75px; 
-    font-size: 4rem; 
-    color: white; 
+    line-height: 75px;
+    font-size: 4rem;
+    color: white;
     font-family: 'Rubik', sans-serif;
-    text-align: center; 
-    font-weight: 600; 
+    text-align: center;
+    font-weight: 600;
     text-shadow: 3px 3px 0 #000;
 }
+
 .image-gallery {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-top: 20px;
 }
 
 .image-gallery-style {
-    width: 300px; 
-    border: 2.5px solid #fff; 
+    width: 300px;
+    border: 2.5px solid #fff;
     border-radius: 10px;
 }
 
 .d1 {
-    font-family: 'Quicksand', sans-serif; font-size: 1.4rem; color: white; text-align: center; font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
 }
 
 .d1-padding {
-    border-radius: 20px; 
-    color: white; 
-    padding: 30px 90px; 
-    width: 80%; 
-    margin-left: auto; 
+    border-radius: 20px;
+    color: white;
+    padding: 30px 120px;
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
 }
 
 .d2-padding {
-        display: flex; flex-direction: row; justify-content: center; padding: 120px 0 120px 0;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 120px 120px 120px 0;
+}
 
-    .title2-2 {
-        text-align: left; width: 80%;
-        color: white; 
-        font-family: 'Rubik', sans-serif;
-        font-size: 1.5rem; 
-        font-weight: normal; 
-        display: block;
-        padding: 0 4rem 2rem 4rem; 
-        text-shadow: 2px 2px 0 #000;
-    }
+.title2-2 {
+    text-align: left;
+    width: 80%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    display: block;
+    padding: 0 4rem 2rem 4rem;
+    text-shadow: 2px 2px 0 #000;
+}
 
-    .footer-title {
-        font-size: 3rem; 
-        color: white; 
-        font-size: 2rem; 
-        text-align: center; 
-        padding-bottom: 40px;
-        text-transform: uppercase;
-    }
+.footer-title {
+    font-size: 3rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
 
-    .footer-flex {
-        display: flex; 
-        flex-direction: row; 
-        font-family: 'Rubik', sans-serif; 
-        justify-content: center; 
-        padding-bottom: 40px;
-    }
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    padding-bottom: 40px;
+}
 
-    .pad-left {
-        padding-left: 90px;
-    }
+.pad-left {
+    padding-left: 90px;
+}
 
 
 .section {
-    padding: 10px 30px 60px 30px; 
+    padding: 10px 30px 60px 30px;
     background-color: #2F2F2F;
 }
 
 .title1 {
     padding-bottom: 20px;
-    padding-top: 40px; 
+    padding-top: 40px;
     font-size: 6rem;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     text-shadow: 2.5px 2.5px 0 black;
-    text-align: center; 
-    color: #FFF; 
+    text-align: center;
+    color: #FFF;
 }
 
 .title1-2 {
-    padding: 0 4rem 0rem 4rem; 
+    padding: 0 4rem 0rem 4rem;
     font-size: 4rem;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     text-shadow: 2.5px 2.5px 0 black;
     text-align: left;
-    color: #FFF; 
+    color: #FFF;
 }
 
 .title2-2 {
-    text-align: left; 
-    color: white; 
+    text-align: left;
+    color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.9rem; 
-    font-weight: normal; 
+    font-size: 1.9rem;
+    font-weight: normal;
     display: block;
-    padding: 0 4rem 0rem 4rem; 
+    padding: 0 4rem 0rem 4rem;
     text-shadow: 2px 2px 0 #000;
 }
 
 .title2 {
-    text-align: center; 
-    color: white; 
+    text-align: center;
+    color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.5rem; 
-    font-weight: normal; 
+    font-size: 1.5rem;
+    font-weight: normal;
     display: block;
-    padding: 0 4rem 2rem 4rem; 
+    padding: 0 4rem 2rem 4rem;
     text-shadow: 2px 2px 0 #000;
 }
+
 .desc1 {
-    padding: 0 20px 0 20px; 
-    line-height: 3.2rem; 
-    text-align: center; 
-    font-family: 'Quicksand', sans-serif; 
-    color: white; 
+    padding: 0 20px 0 20px;
+    line-height: 3.2rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
     font-size: 1.7rem;
     font-weight: 200;
     display: block;
@@ -162,10 +179,10 @@ font-weight: 700;
 
 .desc1-2 {
     padding-left: 4rem;
-    line-height: 3.2rem; 
-    text-align: left; 
-    font-family: 'Quicksand', sans-serif; 
-    color: white; 
+    line-height: 3.2rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
     font-size: 1.7rem;
     font-weight: 200;
     display: block;
@@ -173,11 +190,11 @@ font-weight: 700;
 }
 
 .button-seeAll {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     border: 1px solid white;
-    background: none; 
-    border-radius: 5px; 
-    color: white; 
+    background: none;
+    border-radius: 5px;
+    color: white;
     padding: 2px 50px 2px 50px;
     transition: color .2s;
 }
@@ -186,15 +203,16 @@ font-weight: 700;
     color: #f0a500;
     cursor: pointer;
 }
+
 .button-seeProducts {
     border-radius: 3px;
     color: white;
     font-size: 2rem;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     border: 1px solid white;
-    background: 0; 
-    border-radius: 3em; 
-    color: white; 
+    background: 0;
+    border-radius: 3em;
+    color: white;
     padding: 12px 75px;
     border: 3px solid rgba(255, 255, 255);
     cursor: pointer;
@@ -208,10 +226,10 @@ font-weight: 700;
 }
 
 .flex-row {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     padding: 0 80px 0 80px;
-    
+
 }
 
 .img-style {
@@ -239,6 +257,7 @@ font-weight: 700;
 html {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -254,7 +273,7 @@ a:hover {
     color: #f7dda1;
 }
 
-.contactDetails{
+.contactDetails {
     color: white;
 }
 
@@ -262,12 +281,12 @@ a:hover {
     color: white;
 }
 
-.questionTitle{
+.questionTitle {
     text-align: center;
     margin: 0.6rem;
 }
 
-.questions{
+.questions {
     margin: 0.6rem;
     color: grey;
 }
@@ -282,12 +301,10 @@ a:hover {
     margin-right: auto;
 }
 
-.marketing {
-    
-}
+.marketing {}
 
 .bright {
-    transition:  filter .2s;
+    transition: filter .2s;
 }
 
 .bright:hover {
@@ -306,13 +323,16 @@ a:hover {
     transform: scale(1.04);
     filter: brightness(90%);
 }
+
 .zoom-bright {
-    transition: transform .2s, filter .2s; /* Animation */
+    transition: transform .2s, filter .2s;
+    /* Animation */
 }
 
 .dim:hover {
     filter: brightness(70%);
 }
+
 .dim {
     transition: filter .3s;
 }
@@ -320,8 +340,16 @@ a:hover {
 .link-color {
     color: rgba(240, 165, 0, 0.9);
 }
+
 .img-style2 {
     width: 120px;
+}
+
+.pad-A {
+    padding-right: 20px;
+}
+.pad-B {
+    padding-left: 20px;
 }
 
 @media (max-width: 800px) {
@@ -330,18 +358,31 @@ a:hover {
         padding-left: 0;
         padding-bottom: 50px;
     }
-    
+
+    .pad-A {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .pad-B {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
     .footer-flex {
-        display: flex; 
-        flex-direction: column; 
-        font-family: 'Rubik', sans-serif; 
-        justify-content: center; 
+        display: flex;
+        flex-direction: column;
+        font-family: 'Rubik', sans-serif;
+        justify-content: center;
         padding-bottom: 40px;
-        text-align: center; 
-    
+        text-align: center;
+
     }
-    
+
     .img-style2 {
-    max-width: 90%;
-}
+        max-width: 90%;
     }
+
+    .button-flex {
+        flex-direction: column;
+    }
+}
