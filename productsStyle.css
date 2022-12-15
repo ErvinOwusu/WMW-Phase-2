@@ -1,0 +1,274 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    background-color: #272727;
+}
+
+.button {
+    border: 1px solid white;
+    background: rgba(31, 31, 31, 0.4);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+    transition: filter .4s;
+}
+
+.button:hover {
+    filter: brightness(400%);
+}
+
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.6rem;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 1.7rem;
+    color: #C5C5C5;
+    font-family: 'Quicksand', cursive;
+}
+
+.img-style {
+    width: 250px;
+    align-self: center;
+    border: 1.6px solid #FFF;
+    box-shadow: 5px 5px 50px #000;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF;
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.desc {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF;
+    padding-top: 10px;
+    font-size: 1rem;
+    padding-bottom: 18px;
+    font-size: 1rem;
+}
+
+.input {
+    color: #000;
+    height: 2.4rem;
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#container-chess {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(22, 22, 22, 0.4);
+}
+
+#container-chess:target {
+    visibility: visible;
+    display: block;
+}
+
+#container-axe {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(22, 22, 22, 0.4);
+}
+
+#container-axe:target {
+    visibility: visible;
+    display: block;
+}
+
+#container-metalSign {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(22, 22, 22, 0.4);
+}
+
+#container-metalSign:target {
+    visibility: visible;
+    display: block;
+}
+
+.reveal-modal {
+    background: #FFF;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    z-index: 41;
+    top: 25%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.section2 {
+    text-align: center;
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.flex-A {
+    display: flex;
+    flex-direction: row;
+}
+
+.bgd {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 40px;
+    height: 95%;
+    border: 2px solid rgba(255, 255, 255, .3);
+}
+
+.title-A {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    line-height: 44px;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2.3px 2.3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.filter-container2 {
+    background-color: rgba(255, 255, 255, 0.02);
+    width: 100%;
+    padding: 40px;
+}
+
+.filter-container1 {
+    width: 100%;
+    padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .filter-container1 {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-style {
+        width: 250px;
+        align-self: center;
+        border: 1.6px solid #FFF;
+        box-shadow: 5px 5px 50px #000;
+    }
+
+    .title {
+        font-family: 'Quicksand', sans-serif;
+        color: #FFF;
+        padding-top: 20px;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .section2 {
+        text-align: center;
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+
+    .reveal-modal {
+        width: 90%;
+    }
+
+    .filter-container2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1405px) {
+    .section2 {
+        text-align: center;
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+}
