@@ -17,7 +17,25 @@
     <link rel="stylesheet" href="productsStyle.css" type="text/css" />
 
     <style>
+        .img-popup {
+            width: 390px; border-radius: 30px; border: 2px solid #000;
+        }
         
+        .desc-popup {
+            color: #000; text-align: center; font-size: 1.3rem; text-align: center; padding-top: 15px;
+        }
+        
+        @media (max-width: 800px) {
+            .img-popup {
+                width: 210px;
+            }
+            
+            .desc-popup {
+                font-size: 1.3rem;
+            }
+            
+            
+        }
     </style>
 </head>
 
@@ -138,10 +156,10 @@
                     style="text-align: center; font-size: 3rem; font-weight: bold; font-family: 'Rubik', sans-serif; color: #000;">
                     CUSTOM METAL SIGNS </div>
                 <center>
-                    <img style="width: 390px; border-radius: 30px; border: 2px solid #000;"
+                    <img class="img-popup"
                         src="images/Gallery Metal Sign.JPG">
                 </center>
-                <div class="desc" style="color: #000; text-align: center; font-size: 1.3rem; text-align: center;"> In
+                <div class="desc-popup"> In
                     order to proceed with the <i> <u>Custom Metal Signs</u></i> purchase, please fill in the form below
                     so that we can contact you about the next steps. If you have any other questions, feel free to leave
                     it in the space provided below </div>
